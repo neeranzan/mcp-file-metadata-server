@@ -1,0 +1,11 @@
+[project]
+name = "mcp-file-server"
+version = "0.1.0"
+description = "MCP server that exposes tools to provide file content and information to LLMs like Claude."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp[cli]>=1.25.0",
+    "pandas>=2.3.3",
+    "pyarrow>=22.0.0",
+]
